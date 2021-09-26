@@ -11,7 +11,7 @@ In more details :
 - Assync JavaScript to manipulate .json files:
   - Assync - Await
   - Fetch API
-   -Acessing object properties
+  - Acessing object properties
 
 
 
