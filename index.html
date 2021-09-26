@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="profile">
+      <div class="profile-infos">
+        <img src="./images/image-jeremy.png" alt="" />
+        <h5>Report for</h5>
+        <h1>Jeremy Robson</h1>
+      </div>
+      <div class="time-interval">
+        <ul>
+          <li onclick="getDataDaily()">Daily</li>
+          <li onclick="getDataWeekly()">Weekly</li>
+          <li onclick="getDataMonthly()">Monthly</li>
+        </ul>
+      </div>
+    </section>
+    <main class="container">
+      <aside class="card work">
+        <img src="./images/icon-work.svg" alt="">
+        <div class="card-inside">
+          <div class="card-activity">
+            <h3>Work</h3>
+            <span>...</span>
+          </div>
+          <div class="card-hours">
+            <h1 class="work-current">32hrs</h1>
+            <p class="work-previous">Last Week - 36hrs</p>
+          </div>
+        </div>
+      </aside>
+
+      <aside class="card play">
+        <img src="./images/icon-play.svg" alt="">
+        <div class="card-inside">
+          <div class="card-activity">
+            <h3>Play</p>
+            <span>...</span>
+          </div>
+          <div class="card-hours">
+            <h1 class="play-current">32hrs</h1>
+            <p class="play-previous">Last Week - 36hrs</p>
+          </div>
+        </div>
+      </aside>
+
+      <aside class="card study">
+        <img src="./images/icon-study.svg" alt="">
+        <div class="card-inside">
+          <div class="card-activity">
+            <h3>Study</p>
+            <span>...</span>
+          </div>
+          <div class="card-hours">
+            <h1 class="study-current">32hrs</h1>
+            <p class="study-previous">Last Week - 36hrs</p>
+          </div>
+        </div>
+      </aside>
+
+      <aside class="card exercise">
+        <img src="./images/icon-exercise.svg" alt="">
+        <div class="card-inside">
+          <div class="card-activity">
+            <h3>Exercise</h3>
+            <span>...</span>
+          </div>
+          <div class="card-hours">
+            <h1 class="exercise-current">32hrs</h1>
+            <p class="exercise-previous">Last Week - 36hrs</p>
+          </div>
+        </div>
+      </aside>
+
+      <aside class="card social">
+        <img src="./images/icon-social.svg" alt="">
+        <div class="card-inside">
+          <div class="card-activity">
+            <h3>Social</h3>
+            <span>...</span>
+          </div>
+          <div class="card-hours">
+            <h1 class="social-current">32hrs</h1>
+            <p class="social-previous">Last Week - 36hrs</p>
+          </div>
+        </div>
+      </aside>
+
+      <aside class="card self-care">
+        <img src="./images/icon-self-care.svg" alt="">
+        <div class="card-inside">
+          <div class="card-activity">
+            <h3>Self Care</h3>
+            <span>...</span>
+          </div>
+          <div class="card-hours">
+            <h1 class="selfcare-current">32hrs</h1>
+            <p class="selfcare-previous">Last Week - 36hrs</p>
+          </div>
+        </div>
+      </aside>
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+</html>
