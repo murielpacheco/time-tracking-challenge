@@ -3,11 +3,15 @@
 
 
 This project was done using HTML, CSS and vanilla JavaScript. 
+
 In more details:
-    * SASS as CSS preprocessor:
-      * Flexbox & display Grid;
-      * SASS Variables, mixins;
-    * Assync JavaScript to manipulate .json files;
+
+    - SASS as CSS preprocessor:
+      - Flexbox & display Grid;
+      - SASS Variables, mixins;
+    - Assync JavaScript to manipulate .json files:
+        - assync - await
+        - Fetch API
 
 
 
