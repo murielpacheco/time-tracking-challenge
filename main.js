@@ -24,22 +24,22 @@ async function getDataDaily(){
     const data= await response.json();
    
     workCurrent.innerHTML=data[0]['timeframes']['daily']['current']+" hrs";
-    workPrevious.innerHTML="Last Day - "+data[0]['timeframes']['daily']['previous']+" hrs";
+    workPrevious.innerHTML="Yesterday - "+data[0]['timeframes']['daily']['previous']+" hrs";
     
     playCurrent.innerHTML=data[1]['timeframes']['daily']['current']+" hrs";
-    playPrevious.innerHTML="Last Day - "+data[1]['timeframes']['daily']['previous']+" hrs";
+    playPrevious.innerHTML="Yesterday - "+data[1]['timeframes']['daily']['previous']+" hrs";
     
     studyCurrent.innerHTML=data[2]['timeframes']['daily']['current']+" hrs";
-    studyPrevious.innerHTML="Last Day - "+data[2]['timeframes']['daily']['previous']+" hrs";
+    studyPrevious.innerHTML="Yesterday - "+data[2]['timeframes']['daily']['previous']+" hrs";
     
     exerciseCurrent.innerHTML=data[3]['timeframes']['daily']['current']+" hrs";
-    exercisePrevious.innerHTML="Last Day - "+data[3]['timeframes']['daily']['previous']+" hrs";
+    exercisePrevious.innerHTML="Yesterday - "+data[3]['timeframes']['daily']['previous']+" hrs";
     
     socialCurrent.innerHTML=data[4]['timeframes']['daily']['current']+" hrs";
-    socialPrevious.innerHTML="Last Day - "+data[4]['timeframes']['daily']['previous']+" hrs";
+    socialPrevious.innerHTML="Yesterday - "+data[4]['timeframes']['daily']['previous']+" hrs";
     
     selfCareCurrent.innerHTML=data[5]['timeframes']['daily']['current']+" hrs";
-    selfCarePrevious.innerHTML="Last Day - "+data[5]['timeframes']['daily']['previous']+" hrs";
+    selfCarePrevious.innerHTML="Yesterday - "+data[5]['timeframes']['daily']['previous']+" hrs";
 
 }
 
