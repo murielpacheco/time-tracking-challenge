@@ -5,6 +5,7 @@ $colorStudy:hsl(348, 100%, 68%);
 $colorExercise: hsl(145, 58%, 55%);
 $colorSocial: hsl(264, 64%, 52%);
 $colorSelfCare:hsl(43, 84%, 65%);
+$colorWhite: #ffffff;
 
 //Blue tons
 $blueZao: hsl(246, 80%, 60%);
@@ -21,4 +22,9 @@ $fontFamily: 'Rubik';
     margin-right: 22px;
     margin-bottom: 12px;
   }
+}
+
+@mixin size-mobile {
+  width: 260px;
+  height: 120px;
 }

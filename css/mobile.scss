@@ -1,3 +1,5 @@
+@import 'main';
+
 @media (min-width: 1620px) {
   body {
     justify-self: center;
@@ -29,8 +31,7 @@
   }
 
   .card {
-    width: 260px;
-    height: 120px;
+    @include size-mobile;
 
     &-inside {
       height: 77%;
@@ -59,8 +60,7 @@
   }
 
   .profile {
-    width: 260px;
-    height: 120px;
+    @include size-mobile;
     margin-left: 3rem;
 
     img {
