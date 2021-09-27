@@ -7,11 +7,89 @@
 }
 
 body {
+  height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 6rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: #0f1424;
+}
+
+.profile {
+  background-color: #1c1f4a;
+  height: 500px;
+  width: 300px;
+  border-radius: 15px;
+  margin-left: 2rem;
+}
+
+.profile img {
+  width: 60px;
+  border: 3px solid white;
+  border-radius: 50%;
+  margin-bottom: 2rem;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.profile img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.profile-infos {
+  background-color: #5847eb;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding: 2rem;
+  border-radius: 15px;
+}
+
+.profile-infos h5 {
+  color: #bdc1ff;
+  font-weight: 400;
+}
+
+.profile-infos h1 {
+  color: white;
+  font-weight: 300;
+  font-size: 2.4rem;
+}
+
+.profile .time-interval {
+  padding: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 15px;
+  color: #6f76c8;
+  background-color: #1c1f4a;
+}
+
+.profile .time-interval ul {
+  list-style-type: none;
+}
+
+.profile .time-interval ul li {
+  cursor: pointer;
+  margin-bottom: 1.4rem;
+}
+
+.profile .time-interval ul li:hover {
+  color: white;
 }
 
 .container {
@@ -22,7 +100,7 @@ body {
   -ms-grid-rows: 1fr 1fr;
       grid-template-rows: 1fr 1fr;
   grid-gap: 20px;
-  margin: 0 auto;
+  margin-left: 3rem;
 }
 
 .card {
@@ -106,8 +184,8 @@ body {
   bottom: 0;
   border-radius: 15px;
   cursor: pointer;
-  -webkit-transition: .2s;
-  transition: .2s;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -166,68 +244,5 @@ body {
 .card-hours p {
   font-weight: 400;
   color: #bdc1ff;
-}
-
-.profile {
-  background-color: #1c1f4a;
-  height: 500px;
-  width: 300px;
-  border-radius: 15px;
-  margin-left: 2rem;
-}
-
-.profile img {
-  width: 90px;
-  border: 3px solid white;
-  border-radius: 50%;
-  margin-bottom: 2rem;
-  -webkit-transition: .4s;
-  transition: .4s;
-}
-
-.profile img:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-}
-
-.profile-infos {
-  background-color: #5847eb;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  padding: 2rem;
-  border-radius: 15px;
-}
-
-.profile-infos h5 {
-  color: #bdc1ff;
-  font-weight: 400;
-}
-
-.profile-infos h1 {
-  color: white;
-  font-weight: 300;
-  font-size: 2.4rem;
-}
-
-.profile .time-interval {
-  padding: 2rem;
-  color: #6f76c8;
-}
-
-.profile .time-interval ul {
-  list-style-type: none;
-}
-
-.profile .time-interval ul li {
-  cursor: pointer;
-  margin-bottom: 1.4rem;
 }
 /*# sourceMappingURL=styles.css.map */
